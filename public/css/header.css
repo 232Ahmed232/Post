@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+.name{
+    background-color: #ff0000;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Bangers', cursive;
+    
+    color: white;
+}
+
+nav{
+    display: flex;
+    background-color: #ff0000;
+    align-items: center;
+}
+
+
+.nitem{
+    cursor: pointer;
+    color: white;
+    padding: 25px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.line{
+    height: 50px;
+    border-right: 2px solid aliceblue;
+
+}
+
+.dropdown{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.dropdown hr{
+    width: 100%;
+}
+
+.dropdown a{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.techi{
+    position: absolute;
+    left: 5% ;
+}
+.newi{
+    position: absolute;
+    left: 20% ;
+}
+
+
+.techi{
+    display: hidden;
+}
+

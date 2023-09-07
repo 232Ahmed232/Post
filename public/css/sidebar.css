@@ -1,0 +1,66 @@
+.sidebar{
+   
+    padding-left: 20px;
+    display: flex;
+    width: 35%;
+    border-left: 2px solid black;
+    position:absolute;
+    top: 55%;
+    left: 62%;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 800px;
+    
+}
+
+
+.topic{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    width: 50%;
+}
+
+
+.topic h4{
+    border: 4px dotted black;
+
+}
+.topic a{
+   margin: 5px 0;
+
+}
+
+.sidebar h4{
+    
+    padding: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recentpost img{
+    height: 100px;
+    width: 40%;
+}
+
+
+
+.recentpost h6{
+    margin-left: 5px;
+    width: 40%;
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.rece{
+    margin: 10px 0;
+    /* border: 1px double black; */
+    justify-content: space-around;
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+

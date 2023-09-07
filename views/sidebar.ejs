@@ -1,0 +1,28 @@
+<div class="sidebar">
+    <form action="/" method="post">
+        <input type="text" name="search">
+        &nbsp;
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+
+    <div class="topic">
+        <h4>HOT TOPICS</h4>
+        <a href="/cate/Terrorism">Terrorism</a>
+        <a href="/cate/Politics">Politics</a>
+        <a href="/cate/World Affairs">Business</a>
+    </div>
+
+    <div class="recentpost">
+        <h4>Recent Post</h4>
+        <% lp.forEach(element => { %>
+            <a  href="/temp/<%= element.title %>" class="rece">
+                <img src="/img/<%= element.img %>" alt="">
+                
+                    <h6><%= element.title %></h6>
+                
+            </a>
+    
+        <% }) %>
+        
+    </div>
+</div>

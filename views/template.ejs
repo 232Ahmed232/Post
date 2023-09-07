@@ -1,0 +1,11 @@
+<%- include('partial/header.ejs') %>
+
+
+<div class="container">
+<h1><%= article.title %></h1>
+<h4><%= article.about %></h4>
+<!-- <img src=""> -->
+<img class="postimg" src="/img/<%= article.ssc%>" alt="">
+<p><%= article.article %></p>
+</div>
+<%- include('partial/footer.ejs') %>

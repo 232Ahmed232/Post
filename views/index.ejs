@@ -1,0 +1,24 @@
+<%- include('partial/header.ejs') %>
+
+
+    <div class="container">
+        <%- include('sidebar.ejs') %>
+
+        <div class="posts">
+            <% post.forEach(element => { %>
+                <a href="/temp/<%= element.title %>"class="cart">
+                    <img src="/img/<%= element.img %>" alt="">
+                    <h3><%= element.title %></h3>
+                    <p><%= element.about %></p>
+                </a>
+            <% }) %>
+         
+          
+            
+            
+            
+        </div>
+    </div>
+
+
+<%- include('partial/footer.ejs') %>

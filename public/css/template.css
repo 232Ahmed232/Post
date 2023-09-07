@@ -1,0 +1,11 @@
+.container h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.container .postimg{
+    height: 500px;
+    width: 100%;
+    size: cover;
+}
